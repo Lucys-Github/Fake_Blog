@@ -1,0 +1,26 @@
+META:
+flat earth page: JS
+
+OTHER:
+create github repo --> upload. (only the theme)
+theme look same as example? or only layout/parts?
+smpt mail (plugin) --> konto: brevo.com: iths mail
+all neccessary theme phps
+header + footer. getBoth in index.php in theme
+pagination: wp_list_pages()
+
+WIDGET:
+at least one. use for. AD. position FIXED (stays on scroll)
+
+IMGS:
+lazy loading on imgs.
+diff img sizes (px) dep on viewportwidth (add-theme-support, add_image_size). img srcset (upload in wp-admin-->they land in folder uploads) (might be post_thumbnail + related functions )
+alt-tags on all imgs (added in qp-admin, when media added)
+wp_get_attachment_image
+
+ACCESSIBILITY:
+lighthouse (in console), for SEO. semantic tags,
+tabindex(must!/can be navigated by tabs), only needed for interactive content (buttons, links etc)
+wp-accessibility plugins?
+contrast check colors
+test accessibility: wp-accessibility (found in wp admin) (WAWE website?)
